@@ -1,5 +1,4 @@
-// PREP_FIRSTRECUR.cpp : Defines the entry point for the console application.
-//
+// Finds the first recurring character in a given string using hash_map.
 
 #include "stdafx.h"
 #include<iostream>
