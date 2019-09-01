@@ -9,7 +9,7 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	string str = "GeeksandGeeks",visitedstr;
+	string str = "ABBCACDGD",visitedstr;
 	int pos;
 
 	for(int i=0;i<str.size();i++)
