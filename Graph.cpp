@@ -10,6 +10,7 @@ class Graph
 	vector<int> starts;
 	vector<int> ends;
 	map< int,vector<int> > adjlist;
+	
 public:
 	Graph(const vector<int> &starts, const vector<int> &ends)
 	{
