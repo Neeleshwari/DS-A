@@ -63,8 +63,7 @@ int mergesort(int arr[],int start,int end)
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//int arr[10] = {56,34,76,12,22,33,44,99,88,10};
-	int arr[10] = {3,3,3,3,3,3,3};
+	int arr[10] = {56,34,76,12,22,33,44,99,88,10};
 
 	for (int i = 0;i<10;i++)
 		cout<<"\t"<<arr[i];
