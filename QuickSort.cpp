@@ -49,3 +49,38 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	return 0;
 }
+
+//  Quick sort Alternate logic 
+/* void Quicksort(int a[], int start, int end)
+{
+	if (start >= end)
+		return;
+
+	int i = start, j = end - 1;
+	int pivot = a[end], temp, k = 0;
+
+	while (i < j)
+	{
+		if (a[i] > pivot)
+		{
+			temp = a[i];
+			a[i] = a[j];
+			a[j] = temp;
+			j--;
+		}
+		else
+			i++;
+	}
+	if (a[j] < a[end])
+		k = j + 1;
+	else
+		k = j;
+
+	temp = a[k];
+	a[k] = a[end];
+	a[end] = temp;
+
+	Quicksort(a, start, k-1);
+	Quicksort(a, k + 1, end);
+}
+*/
